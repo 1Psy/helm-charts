@@ -1,20 +1,4 @@
-# grafana-sampling
-
-![Version: 1.1.2](https://img.shields.io/badge/Version-1.1.2-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v1.5.1](https://img.shields.io/badge/AppVersion-v1.5.1-informational?style=flat-square)
-
-A Helm chart for a layered OTLP tail sampling and metrics generation pipeline.
-
-## Breaking change announcements
-
-### **v1.0.0**
-
-Grafana Agent has been replaced with [Grafana Alloy](https://grafana.com/oss/alloy-opentelemetry-collector/)!
-
-These sections in your values file will need to be renamed:
-
-| Old                         | New                 | Purpose                                        |
-|-----------------------------|---------------------|------------------------------------------------|
-| `grafana-agent-deployment`  | `alloy-deployment`  | Settings for the Alloy load balancing instance |
+1111111111111111111111111instance |
 | `grafana-agent-statefulset` | `alloy-statefulset` | Settings for the Alloy tail sampling instance  |
 
 For example, if you have something like this:
